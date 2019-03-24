@@ -40,7 +40,7 @@ def play(board)
   turn_counter = 0
   until turn_counter == 8
   turn(board)
-  turn += 1
+  turn_counter += 1
   play(board)
  end
 end
